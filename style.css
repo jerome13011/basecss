@@ -3,14 +3,14 @@
 }
 html, body {
   width: 100%;
-  height: 100%;
 }
 body {
   position: relative;
   margin: 0;
   padding: 0;
   background-color: #EEE8AA;
-  display : table;
+  display: table;
+  height: 100vh;
 }
 header {
   background-color: #D2B48C;
@@ -30,7 +30,6 @@ header li {
   text-decoration: none;
 }
 footer {
-
   height: 43px;
   background-color: #D2B48C;
   border-radius: 10px;
@@ -41,8 +40,8 @@ footer {
   clear: both;
   bottom: 0;
   left: 0;
-  display : table-row;
-  }
+  display: table-row;
+}
 footer li {
   display: inline;
   margin-right: 100px;
@@ -51,7 +50,8 @@ footer li {
 h1 {
   text-align: center;
   font-size: 40px;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+  color: rgb(148, 102, 34);
+  text-shadow: rgb(82, 76, 10) 4px 4px 4px;
 }
 h2 {
   text-shadow: 1px 1px 1px #CFB565, 1px 2px 1px #CFB565, 1px 3px 1px #CFB565, 1px 4px 1px #CFB565, 1px 5px 1px #CFB565, 1px 6px 1px #CFB565, 1px 7px 1px #CFB565;
@@ -67,10 +67,15 @@ h2 {
   box-shadow: 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565;
 }
 .main {
-    width: 1000px;
+  width: 1000px;
   margin: 0 auto;
   padding: 2px;
   overflow: auto;
+}
+@@media .main (min-width: 200px) and (max-width: 750px){
+  .aside .section {
+    width: 100%;
+  }
 }
 aside {
   width: 30%;
@@ -93,8 +98,16 @@ p {
   text-shadow: 1px 1px 1px #CFB565, 1px 2px 1px #CFB565, 1px 3px 1px #CFB565, 1px 4px 1px #CFB565, 1px 5px 1px #CFB565, 1px 6px 1px #CFB565, 1px 7px 1px #CFB565;
 }
 .imgsup {
+  margin-top: 10px;
   height: 365px;
   border: 5px solid #B8860B;
-  border-radius: 15px;
-  box-shadow: 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565;
+  border-radius: 2px 64px 0px 64px;
+  box-shadow: 10px -15px 30px #333333;
+}
+.imgsup2 {
+  margin-top: 10px;
+  height: 340px;
+  border: 5px solid #B8860B;
+  border-radius: 2px 64px 0px 64px;
+  box-shadow: 10px -15px 30px #333333;
 }
