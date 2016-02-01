@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" /> </script>
+  <link rel="stylesheet" href="style.css">
+  <title>Noob Reboot</title>
+
+</head>
+
+
+<body>
+  <div class="container">
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Top50</a></li>
+          <li><a href="#">Nouveauté</a></li>
+          <li><a href="#">A venir</a></li>
+          <li><a href="acteur.html">Plus d'information sur les acteurs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <main class="main" class="clearfix">
+
+      <section class="description">
+
+        <h1>Batman VS Superman</h1>
+        <h2>Resumé:</h2>
+        <p> Batman v Superman : L'Aube de la Justice (Batman v Superman: Dawn of Justice) est un film de super-héros américain réalisé par Zack Snyder, dont la sortie est prévue le 23 mars 2016. Distribué par Warner Bros., produit par Charles Roven et écrit
+          par Chris Terrio et David S. Goyer, basé sur les personnages de DC Comics Batman et Superman, le film est le second de l'univers cinématographique DC. Le film mettra en scène Henry Cavill, Amy Adams, Diane Lane, Laurence Fishburne avec Ben Affleck
+          et Gal Gadot qui rejoignent le casting pour interpréter respectivement Batman et Wonder Woman.
+        </p>
+        <p>
+          Pour la première fois à l’écran, la rencontre des deux plus grands super-héros de tous les temps : Batman et Superman. Voir aussi Man Of Steel Titre original : BATMAN V SUPERMAN : DAWN OF JUSTICE (Etats-Unis) Sortie en salles le 23 Mars 2016 Année de
+          production : 2016
+        </p>
+        <img class="imgsup" src="http://www.olibe.fr/sites/default/files/styles/image_original/public/Batman%2BV%2BSuperman%2BMovie.jpg?itok=MIgls8U_" height="300px" />
+        <h2>Scénario</h2>
+        <p>
+          L'idée d'un film réunissant Batman et Superman au grand écran ne date pas des années 2010. En effet, début 2001, le cinéaste Wolfgang Petersen devait réaliser ce film11. Le script était écrit par Andrew Kevin Walker, mais le film est mis à l'écart dès
+          l'annonce des reboots Batman Begins (qui a été un grand succès) et Superman Returns (qui a été considéré comme un échec commercial par les studios qui n'ont pas donné suite). Peu avant la sortie de Man of Steel en 2013, Henry Cavill, interviewé
+          par un journaliste, avoue qu'il aimerait voir Batman combattre Superman le temps d'une scène. Toujours avant la sortie du film, Warner Bros. annonce déjà une suite, toujours réalisée par Zack Snyder12. Un projet fut au départ présenté comme
+          Man of Steel 2 avec une sortie prévue dès 201413. La présence de Batman dans cette suite est annoncée officiellement lors du Comic-Con de San Diego en juillet 2013 par Zack Snyder qui a introduit Harry Lennix récitant un célèbre passage de la
+          bande-dessinée Batman: Dark Knight, dite par Batman devant les fans14.
+        </p>
+      </section>
+
+      <aside>
+        <ul>
+          <li>
+            <img src="http://img.actucine.com/wp-content/uploads/2015/10/Batman-V-Superman.jpg" height="80px" width="90px" />4 mois de la sortie, un seul trailer.
+            <li>
+              <img src="http://images-cdn.moviepilot.com/images/c_fill,h_360,w_655/t_mp_quality/ljgtxydg65vibweovqqc/what-do-you-think-of-doomsday-738037.jpg" height="80px" width="90px" /> Ennemie...
+            </li>
+            <li>
+              <img src="http://img.actucine.com/wp-content/uploads/2015/02/Aquaman-700x393.jpg" height="80px" width="90px" /> Depuis un certain temps, une rumeur persistante indique qu’Aquaman sera la.
+            </li>
+            <li>
+              <img src="http://images-cdn.moviepilot.com/images/c_fill,h_392,w_640/t_mp_quality/cyyixnguav7jzws3krka/batman-vs-superman-theories-officially-proved-debunked-but-which-are-true-668304.jpg" height="80px" width="90px" /> L'armure de Batman pour affronté Superman.
+            </li>
+            <li>
+              <img src="http://www.trbimg.com/img-55a16de5/turbine/la-et-hc-batman-v-superman-dawn-of-justice-trailer-20150711/650/650x366" height="80px" width="90px" />Wonder-Woman serais bien présente dans le film.
+            </li>
+            <li>
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTenFblw7UKfrFgPSWOZXOBgrdXBPVCEvcGUyoMVWXSQq4B4bR-yg" height="80px" width="90px" /> Le pouvoir de Batman en question.
+            </li>
+            <li>
+              <img src="http://cdn2-www.comingsoon.net/assets/uploads/gallery/batman-v-superman-dawn-of-justice-1400694960/batmanvsupermanshot1.jpg" height="80px" width="90px" />La Batmobil en action
+            </li>
+            <li>
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqsw_EB-M73kr0nxOhizi8opoWFT6ks0P2FPsc9p7Mlc_Y1kGK" height="80px" width="90px" /> L'affrontement, Batman VS Superman.
+            </li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer>
+      <ul>
+        <li>Suivez-nous</li>
+        <li>Application mobile</li>
+      </ul>
+    </footer>
+
+  </div>
+
+
+
+</body>
+
+
+</html>

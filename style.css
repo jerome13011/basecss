@@ -18,6 +18,17 @@ header {
   border: 2px solid black;
   box-shadow: 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565, 2px 2px 2px #CFB565;
 }
+header.sticky {
+font-size: 24px;
+line-height: 28px;
+height: 10px;
+background: #D2B48C;
+text-align: left;
+padding-left: 20px;
+transition: all 0.7s ease;
+
+
+}
 nav ul {
   line-height: 50px;
   margin: 0px;
@@ -72,11 +83,6 @@ h2 {
   padding: 2px;
   overflow: auto;
 }
-@@media .main (min-width: 200px) and (max-width: 750px){
-  .aside .section {
-    width: 100%;
-  }
-}
 aside {
   width: 30%;
   float: right;
@@ -106,7 +112,7 @@ p {
 }
 .imgsup2 {
   margin-top: 10px;
-  height: 340px;
+  height: 350px;
   border: 5px solid #B8860B;
   border-radius: 2px 64px 0px 64px;
   box-shadow: 10px -15px 30px #333333;
